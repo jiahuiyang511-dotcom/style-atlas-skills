@@ -339,7 +339,8 @@
       "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/worlds-2019-visual-style",
       "skillPath": "skills/worlds-2019-visual-style",
       "sourceUrl": "https://www.lostproject.com/league-of-legends-worlds-2019",
-      "thumbnail": "docs/worlds-2019-thumb.jpg"
+      "thumbnail": "docs/worlds-2019-thumb.jpg",
+      "skillZip": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2019-v1.0.0/worlds-2019-visual-style.zip"
     }
   ]
 }
