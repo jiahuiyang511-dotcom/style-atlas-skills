@@ -10,7 +10,7 @@
 
 ## 选择需要的工具
 
-| 主视觉 | Skill | 用途 |
+| 主视觉 | Skill | 关键词 |
 | --- | --- | --- |
 | <a href="skills/msi-2021-visual-style/SKILL.md"><img src="skills/msi-2021-visual-style/assets/reference/official-03.jpg" alt="MSI 2021 主视觉预览" width="160" height="90"></a> | [msi-2021-visual-style](skills/msi-2021-visual-style/SKILL.md) | 灰阶撕接、窄高文字、倾斜放大口号与荧光绿注释 |
 | <a href="skills/msi-2022-visual-style/SKILL.md"><img src="skills/msi-2022-visual-style/assets/reference/primer-02.jpg" alt="MSI 2022 主视觉预览" width="160" height="90"></a> | [msi-2022-visual-style](skills/msi-2022-visual-style/SKILL.md) | 笔记方格、柔和多色场、紧缩变形标题与像素阶梯 |
