@@ -2,37 +2,48 @@
 
 将已提炼的视觉风格用于 AI 设计与绘图 Prompt。
 
-这里包含 MSI 2021、2022、2023、2024、2025、2026 六套独立风格 Skill，用于将已提炼的视觉关系应用到具体设计任务。本仓库包含上述六套专属风格 Skill；完整研究包与网站内容生产工作流保留本地。
+Style Atlas 按视觉来源组织可复用的设计工具，持续收录赛事、品牌、电影等不同板块。英雄联盟国际赛事是其中一个板块，MSI 是其下的一个赛事系列；当前已收录六套 MSI 风格。完整研究包与网站内容生产工作流保留本地。
 
 [Style Atlas 展示网站](https://style-atlas-msi-2026.jiahuizz3.chatgpt.site/)
 
 网站当前仍限制访问；本仓库内容可以独立使用，不要求访问网站。网站分享权限需另行配置。
 
+<!-- style-catalogue:start -->
+## 来源目录
+
+- 赛事视觉
+  - 英雄联盟国际赛事
+    - MSI 季中冠军赛
+
+分类只显示已收录内容。Worlds（S 赛）与 MSI 属于英雄联盟国际赛事下的并列系列；其他赛事、品牌和电影等来源可按实际收录继续登记。
+
 ## 选择需要的工具
+
+### 赛事视觉 / 英雄联盟国际赛事 / MSI 季中冠军赛
 
 | 主视觉 | Skill | 关键词 |
 | --- | --- | --- |
-| <a href="skills/msi-2021-visual-style/SKILL.md"><img src="skills/msi-2021-visual-style/assets/reference/official-03.jpg" alt="MSI 2021 主视觉预览" width="160" height="90"></a> | [msi-2021-visual-style](skills/msi-2021-visual-style/SKILL.md) | 灰阶撕接、窄高文字、倾斜放大口号与荧光绿注释 |
-| <a href="skills/msi-2022-visual-style/SKILL.md"><img src="skills/msi-2022-visual-style/assets/reference/primer-02.jpg" alt="MSI 2022 主视觉预览" width="160" height="90"></a> | [msi-2022-visual-style](skills/msi-2022-visual-style/SKILL.md) | 笔记方格、柔和多色场、紧缩变形标题与像素阶梯 |
-| <a href="skills/msi-2023-visual-style/SKILL.md"><img src="skills/msi-2023-visual-style/assets/reference/primer-02.png" alt="MSI 2023 主视觉预览" width="160" height="90"></a> | [msi-2023-visual-style](skills/msi-2023-visual-style/SKILL.md) | 红米白黑、几何字与签名笔迹、截断斜带与极窄大字 |
-| <a href="skills/msi-2024-visual-style/SKILL.md"><img src="skills/msi-2024-visual-style/assets/reference/msi24-brand-expression-1-black-16x9.jpg" alt="MSI 2024 主视觉预览" width="160" height="90"></a> | [msi-2024-visual-style](skills/msi-2024-visual-style/SKILL.md) | 黑红锚点、宽重紧排字体、局部光谱异常边界与数据层级 |
-| <a href="skills/msi-2025-visual-style/SKILL.md"><img src="docs/msi-2025-thumb.webp" alt="MSI 2025 原作主视觉：IGNITE THE FIRE WITHIN" width="160" height="90"></a> | [msi-2025-visual-style](skills/msi-2025-visual-style/SKILL.md) | 黑红电性锋芒、偏白宽重字块与紫色手绘笔势 |
-| <a href="skills/msi-2026-visual-style/SKILL.md"><img src="skills/msi-2026-visual-style/assets/references/008.jpg" alt="MSI 2026 主视觉预览" width="160" height="90"></a> | [msi-2026-visual-style](skills/msi-2026-visual-style/SKILL.md) | 纸灰、红色硬边形态、规则信息与自由笔触的组合关系 |
+| <a href="skills/msi-2021-visual-style/SKILL.md"><img src="skills/msi-2021-visual-style/assets/reference/official-03.jpg" alt="MSI 2021 原作主视觉" width="160" height="90"></a> | [msi-2021-visual-style](skills/msi-2021-visual-style/SKILL.md) | 窄高字体、荧光绿、撕边拼贴、手写注释 |
+| <a href="skills/msi-2022-visual-style/SKILL.md"><img src="skills/msi-2022-visual-style/assets/reference/primer-02.jpg" alt="MSI 2022 原作主视觉" width="160" height="90"></a> | [msi-2022-visual-style](skills/msi-2022-visual-style/SKILL.md) | 虚线方格、柔和渐变、像素阶梯、线框几何、紧缩变形字体 |
+| <a href="skills/msi-2023-visual-style/SKILL.md"><img src="skills/msi-2023-visual-style/assets/reference/primer-02.png" alt="MSI 2023 原作主视觉" width="160" height="90"></a> | [msi-2023-visual-style](skills/msi-2023-visual-style/SKILL.md) | 签名字叠层、截断斜带、红米白黑、扫描拖影、极窄大字 |
+| <a href="skills/msi-2024-visual-style/SKILL.md"><img src="skills/msi-2024-visual-style/assets/reference/msi24-brand-expression-1-black-16x9.jpg" alt="MSI 2024 原作主视觉" width="160" height="90"></a> | [msi-2024-visual-style](skills/msi-2024-visual-style/SKILL.md) | 光谱异常体、宽重字体、黑红识别、数据纹理 |
+| <a href="skills/msi-2025-visual-style/SKILL.md"><img src="docs/msi-2025-thumb.webp" alt="MSI 2025 原作主视觉" width="160" height="90"></a> | [msi-2025-visual-style](skills/msi-2025-visual-style/SKILL.md) | 电性锋芒、宽重紧排、紫色手势、体育编排 |
+| <a href="skills/msi-2026-visual-style/SKILL.md"><img src="skills/msi-2026-visual-style/assets/references/008.jpg" alt="MSI 2026 原作主视觉" width="160" height="90"></a> | [msi-2026-visual-style](skills/msi-2026-visual-style/SKILL.md) | 宽重字体、手绘标记、规则信息、纸感纹理 |
 
 ## 下载
 
-[打开最新版下载页](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/latest) · [全部版本](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases)
+| 来源分类 | 风格 | 独立下载 |
+| --- | --- | --- |
+| 赛事视觉 / 英雄联盟国际赛事 / MSI 季中冠军赛 | MSI 2021 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2021-visual-style.zip) |
+| 赛事视觉 / 英雄联盟国际赛事 / MSI 季中冠军赛 | MSI 2022 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2022-visual-style.zip) |
+| 赛事视觉 / 英雄联盟国际赛事 / MSI 季中冠军赛 | MSI 2023 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2023-visual-style.zip) |
+| 赛事视觉 / 英雄联盟国际赛事 / MSI 季中冠军赛 | MSI 2024 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2024-visual-style.zip) |
+| 赛事视觉 / 英雄联盟国际赛事 / MSI 季中冠军赛 | MSI 2025 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2025-visual-style.zip) |
+| 赛事视觉 / 英雄联盟国际赛事 / MSI 季中冠军赛 | MSI 2026 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2026-visual-style.zip) |
 
-| 风格 | 独立下载 |
-| --- | --- |
-| MSI 2021 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2021-visual-style.zip) |
-| MSI 2022 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2022-visual-style.zip) |
-| MSI 2023 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2023-visual-style.zip) |
-| MSI 2024 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2024-visual-style.zip) |
-| MSI 2025 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2025-visual-style.zip) |
-| MSI 2026 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2026-visual-style.zip) |
+[全部发布版本](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases) · 各版本附 SHA256SUMS.txt。历史链接保留，每种风格可独立更新版本。
 
-发布附件中包含 SHA256SUMS.txt，供核对下载完整性。
+<!-- style-catalogue:end -->
 
 ## 使用
 
@@ -53,3 +64,7 @@
 这些是独立研究与设计转译工具，并非赛事或品牌的官方 Skill。原图、商标及其他第三方素材仍归相应权利人；出处保留在各 Skill 的 references 中。具体字体、色号和动态行为的已验证范围以各 Skill 为准。参考图用于研究依据，制作时使用用户品牌和原创内容。
 
 本次整理没有为原内容新增开源许可证，使用与再分发范围请参阅 [来源说明](SOURCE_NOTICE.md)。
+
+## 维护与扩展
+
+来源结构见 [LIBRARY_STRUCTURE.md](LIBRARY_STRUCTURE.md)，机器可读索引见 [catalog.json](catalog.json)。新增风格时登记分类、届次、Skill 路径、原作缩略图及实际下载链接，运行 `python scripts/sync_catalogue.py` 更新本页；打包器直接读取目录索引，无需改写赛事年份清单。已有 Skill 目录、详情网址和历史版本下载链接保留。

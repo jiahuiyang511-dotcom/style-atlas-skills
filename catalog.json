@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "title": "Style Atlas",
+  "description": "跨赛事、品牌、电影等来源的视觉风格与可复用设计工具库",
+  "styles": [
+    {
+      "id": "msi-2021",
+      "name": "MSI 2021",
+      "classification": {
+        "path": [
+          {
+            "id": "events",
+            "label": "赛事视觉"
+          },
+          {
+            "id": "lol-international",
+            "label": "英雄联盟国际赛事",
+            "aliases": [
+              "LOL国际赛事",
+              "LoL Esports"
+            ]
+          },
+          {
+            "id": "msi",
+            "label": "MSI 季中冠军赛",
+            "aliases": [
+              "MSI",
+              "Mid-Season Invitational"
+            ]
+          }
+        ],
+        "edition": "2021"
+      },
+      "skillPath": "skills/msi-2021-visual-style",
+      "tags": [
+        "窄高字体",
+        "荧光绿",
+        "撕边拼贴",
+        "手写注释"
+      ],
+      "subtitle": "窄高密字 × 灰阶撕接 × 荧光绿注释",
+      "sourceUrl": "https://lolesports.com/en-US/news/msi-2021-is-heading-to-reykjavik-iceland",
+      "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/msi-2021-visual-style",
+      "skillZip": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2021-visual-style.zip",
+      "thumbnail": "skills/msi-2021-visual-style/assets/reference/official-03.jpg"
+    },
+    {
+      "id": "msi-2022",
+      "name": "MSI 2022",
+      "classification": {
+        "path": [
+          {
+            "id": "events",
+            "label": "赛事视觉"
+          },
+          {
+            "id": "lol-international",
+            "label": "英雄联盟国际赛事",
+            "aliases": [
+              "LOL国际赛事",
+              "LoL Esports"
+            ]
+          },
+          {
+            "id": "msi",
+            "label": "MSI 季中冠军赛",
+            "aliases": [
+              "MSI",
+              "Mid-Season Invitational"
+            ]
+          }
+        ],
+        "edition": "2022"
+      },
+      "skillPath": "skills/msi-2022-visual-style",
+      "tags": [
+        "虚线方格",
+        "柔和渐变",
+        "像素阶梯",
+        "线框几何",
+        "紧缩变形字体"
+      ],
+      "subtitle": "笔记方格 × 柔和色场 × 像素错位 × 变形重字",
+      "sourceUrl": "https://lolesports.com/en-GB/news/msi-2022-primer",
+      "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/msi-2022-visual-style",
+      "skillZip": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2022-visual-style.zip",
+      "thumbnail": "skills/msi-2022-visual-style/assets/reference/primer-02.jpg"
+    },
+    {
+      "id": "msi-2023",
+      "name": "MSI 2023",
+      "classification": {
+        "path": [
+          {
+            "id": "events",
+            "label": "赛事视觉"
+          },
+          {
+            "id": "lol-international",
+            "label": "英雄联盟国际赛事",
+            "aliases": [
+              "LOL国际赛事",
+              "LoL Esports"
+            ]
+          },
+          {
+            "id": "msi",
+            "label": "MSI 季中冠军赛",
+            "aliases": [
+              "MSI",
+              "Mid-Season Invitational"
+            ]
+          }
+        ],
+        "edition": "2023"
+      },
+      "skillPath": "skills/msi-2023-visual-style",
+      "tags": [
+        "签名字叠层",
+        "截断斜带",
+        "红米白黑",
+        "扫描拖影",
+        "极窄大字"
+      ],
+      "subtitle": "红米白黑 × 签名字叠层 × 截断斜带 × 极窄大字",
+      "sourceUrl": "https://lolesports.com/en-US/news/msi-2023-primer",
+      "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/msi-2023-visual-style",
+      "skillZip": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2023-visual-style.zip",
+      "thumbnail": "skills/msi-2023-visual-style/assets/reference/primer-02.png"
+    },
+    {
+      "id": "msi-2024",
+      "name": "MSI 2024",
+      "classification": {
+        "path": [
+          {
+            "id": "events",
+            "label": "赛事视觉"
+          },
+          {
+            "id": "lol-international",
+            "label": "英雄联盟国际赛事",
+            "aliases": [
+              "LOL国际赛事",
+              "LoL Esports"
+            ]
+          },
+          {
+            "id": "msi",
+            "label": "MSI 季中冠军赛",
+            "aliases": [
+              "MSI",
+              "Mid-Season Invitational"
+            ]
+          }
+        ],
+        "edition": "2024"
+      },
+      "skillPath": "skills/msi-2024-visual-style",
+      "tags": [
+        "光谱异常体",
+        "宽重字体",
+        "黑红识别",
+        "数据纹理"
+      ],
+      "subtitle": "黑红锚点 × 宽重紧排 × 光谱异常体",
+      "sourceUrl": "https://studiodumbar.com/work/msi-24",
+      "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/msi-2024-visual-style",
+      "skillZip": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2024-visual-style.zip",
+      "thumbnail": "skills/msi-2024-visual-style/assets/reference/msi24-brand-expression-1-black-16x9.jpg"
+    },
+    {
+      "id": "msi-2025",
+      "name": "MSI 2025",
+      "classification": {
+        "path": [
+          {
+            "id": "events",
+            "label": "赛事视觉"
+          },
+          {
+            "id": "lol-international",
+            "label": "英雄联盟国际赛事",
+            "aliases": [
+              "LOL国际赛事",
+              "LoL Esports"
+            ]
+          },
+          {
+            "id": "msi",
+            "label": "MSI 季中冠军赛",
+            "aliases": [
+              "MSI",
+              "Mid-Season Invitational"
+            ]
+          }
+        ],
+        "edition": "2025"
+      },
+      "skillPath": "skills/msi-2025-visual-style",
+      "tags": [
+        "电性锋芒",
+        "宽重紧排",
+        "紫色手势",
+        "体育编排"
+      ],
+      "subtitle": "黑红电性锋芒 × 宽重字块 × 紫色手绘笔势",
+      "sourceUrl": "https://luvas.work/work/riot-msi-25/",
+      "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/msi-2025-visual-style",
+      "skillZip": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2025-visual-style.zip",
+      "thumbnail": "docs/msi-2025-thumb.webp"
+    },
+    {
+      "id": "msi-2026",
+      "name": "MSI 2026",
+      "classification": {
+        "path": [
+          {
+            "id": "events",
+            "label": "赛事视觉"
+          },
+          {
+            "id": "lol-international",
+            "label": "英雄联盟国际赛事",
+            "aliases": [
+              "LOL国际赛事",
+              "LoL Esports"
+            ]
+          },
+          {
+            "id": "msi",
+            "label": "MSI 季中冠军赛",
+            "aliases": [
+              "MSI",
+              "Mid-Season Invitational"
+            ]
+          }
+        ],
+        "edition": "2026"
+      },
+      "skillPath": "skills/msi-2026-visual-style",
+      "tags": [
+        "宽重字体",
+        "手绘标记",
+        "规则信息",
+        "纸感纹理"
+      ],
+      "subtitle": "宽重识别 × 自由标记 × 规则信息",
+      "sourceUrl": "https://lolesports.com/en-US/news/msi-2026-primer",
+      "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/msi-2026-visual-style",
+      "skillZip": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2026-visual-style.zip",
+      "thumbnail": "skills/msi-2026-visual-style/assets/references/008.jpg"
+    }
+  ]
+}

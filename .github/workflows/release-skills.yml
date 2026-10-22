@@ -24,7 +24,7 @@ jobs:
           gh repo clone "$GITHUB_REPOSITORY" source -- --depth 1 --branch "$RELEASE_TAG"
           printf 'RELEASE_TAG=%s\n' "$RELEASE_TAG" >> "$GITHUB_ENV"
 
-      - name: Build and verify six Skill packages
+      - name: Build and verify catalogue Skill packages
         run: python3 source/scripts/package_skills.py --output "$RUNNER_TEMP/skill-release"
 
       - name: Attach downloads to the release
