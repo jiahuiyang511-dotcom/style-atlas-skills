@@ -1,0 +1,149 @@
+[
+  {
+    "id": "MSI23-001",
+    "title": "DEFY 红底核心主视觉",
+    "role": "core",
+    "page_url": "https://lolesports.com/en-US/news/msi-2023-primer",
+    "original_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/529f66aa1523968956d3bce2fc7153bf8119b86c-1600x900.png?accountingTag=lol_esports&auto=format&fit=max&w=3840",
+    "creator": "Riot Games 官方发布；Mike Potter 项目页署名创意指导 Mike Potter、资深美术指导 Vince Than、资深设计师 Jarrett Quon 等；单图执行分工未逐一核实",
+    "creator_status": "verified",
+    "viewed": true,
+    "local_file": "../assets/reference/primer-02.png",
+    "observation": "红底米白斜向切片反复跨出画幅，黑色大手写 DEFY 横跨其上；边缘有扫描线拖影，小等宽标签分布在多个稳定区块。",
+    "location": "完整静态画面；图解另记裁切像素",
+    "sha256": "aa28543cf3f1f86d597156013aeb005650b72bfe87ebd1de16714b0b4a63f2aa",
+    "size": [
+      1600,
+      900
+    ],
+    "retrieved_at": "2026-10-21 Asia/Shanghai",
+    "provenance": "官方直接原图",
+    "rights": "个人研究参考；原作与身份标志归相应权利人，未取得公开再分发或商业授权"
+  },
+  {
+    "id": "MSI23-002",
+    "title": "伦敦日期与票务信息稿",
+    "role": "core",
+    "page_url": "https://lolesports.com/en-US/news/save-the-date-msi-2023-is-coming-to-london-",
+    "original_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/fe3918f82c05344f2fb0e7ae7a2b2648f6898285-1600x900.png?accountingTag=lol_esports&auto=format&fit=max&w=3840",
+    "creator": "Riot Games 官方发布；Mike Potter 项目页署名创意指导 Mike Potter、资深美术指导 Vince Than、资深设计师 Jarrett Quon 等；单图执行分工未逐一核实",
+    "creator_status": "verified",
+    "viewed": true,
+    "local_file": "../assets/reference/london-01.png",
+    "observation": "红底中央赛事标志与手写笔迹叠置；下方 LONDON-MAY 2-21 为极窄高超大字并部分出画，票务行保持白色清楚；左侧行号长文为等宽小字。",
+    "location": "完整静态画面；图解另记裁切像素",
+    "sha256": "0f57d7a5b624a5d1711fa27699c56fc9ee70cab1dd27c561ea1bb915bb4cedb1",
+    "size": [
+      1600,
+      900
+    ],
+    "retrieved_at": "2026-10-21 Asia/Shanghai",
+    "provenance": "官方直接原图",
+    "rights": "个人研究参考；原作与身份标志归相应权利人，未取得公开再分发或商业授权"
+  },
+  {
+    "id": "MSI23-003",
+    "title": "官方服装胶囊摄影拼版",
+    "role": "application",
+    "page_url": "https://lolesports.com/en-US/news/msi-2023-primer",
+    "original_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5c19af114db5a9336e27e39253f01812ab71c3c0-1600x900.png?accountingTag=lol_esports&auto=format&fit=max&w=3840",
+    "creator": "Riot Games 官方发布；Mike Potter 项目页署名创意指导 Mike Potter、资深美术指导 Vince Than、资深设计师 Jarrett Quon 等；单图执行分工未逐一核实",
+    "creator_status": "verified",
+    "viewed": true,
+    "local_file": "../assets/reference/primer-01.png",
+    "observation": "米白外框组织不同大小的彩色人物照片；红色上衣、米白卫衣和黑衣共享字标/笔迹/斜带，边缘少量小字，主网址完整。",
+    "location": "完整静态画面；图解另记裁切像素",
+    "sha256": "d9242cb46669cb9223fac2d0cdd094e5152dbb4eec4c05c934b528186df9a506",
+    "size": [
+      1600,
+      900
+    ],
+    "retrieved_at": "2026-10-21 Asia/Shanghai",
+    "provenance": "官方直接原图",
+    "rights": "个人研究参考；原作与身份标志归相应权利人，未取得公开再分发或商业授权"
+  },
+  {
+    "id": "MSI23-004",
+    "title": "官方长袖正面印花",
+    "role": "application",
+    "page_url": "https://merch.riotgames.com/es-es/product/msi-2023-defy-longsleeve-tee/",
+    "original_url": "https://cdn.sanity.io/images/dsfx7636/consumer_products/d422543ef1ef5c2bacc658bf70ac9da35b968933-2560x2560.png",
+    "creator": "Riot Games 官方发布；Mike Potter 项目页署名创意指导 Mike Potter、资深美术指导 Vince Than、资深设计师 Jarrett Quon 等；单图执行分工未逐一核实",
+    "creator_status": "verified",
+    "viewed": true,
+    "local_file": "../assets/reference/tee-product-01.png",
+    "observation": "红色织物上白色几何切角 DEFY 字标横向居胸；袖子为分离的斜向白块，未将平面主视觉整张贴满衣服。原图透明背景不是品牌绿色。",
+    "location": "完整静态画面；图解另记裁切像素",
+    "sha256": "c0df6b2c697516235d4d1639934af78cbb02b68dea62a30474ad3c4fd022723f",
+    "size": [
+      2560,
+      2560
+    ],
+    "retrieved_at": "2026-10-21 Asia/Shanghai",
+    "provenance": "官方直接原图",
+    "rights": "个人研究参考；原作与身份标志归相应权利人，未取得公开再分发或商业授权"
+  },
+  {
+    "id": "MSI23-005",
+    "title": "官方长袖背面印花",
+    "role": "application",
+    "page_url": "https://merch.riotgames.com/es-es/product/msi-2023-defy-longsleeve-tee/",
+    "original_url": "https://cdn.sanity.io/images/dsfx7636/consumer_products/3bc3f72e4b6367cc7a82f7b701502327baae4530-2560x2560.png",
+    "creator": "Riot Games 官方发布；Mike Potter 项目页署名创意指导 Mike Potter、资深美术指导 Vince Than、资深设计师 Jarrett Quon 等；单图执行分工未逐一核实",
+    "creator_status": "verified",
+    "viewed": true,
+    "local_file": "../assets/reference/tee-product-02.png",
+    "observation": "红色背面以大米白赛事徽记为中层，黑色手写跨在上、下两端；与正面几何字形成正背分工。专有徽记不迁移。",
+    "location": "完整静态画面；图解另记裁切像素",
+    "sha256": "5a9628dc5c8485f6e3578857a329d63b734b8496753b5e8762c2c06404d86d63",
+    "size": [
+      2560,
+      2560
+    ],
+    "retrieved_at": "2026-10-21 Asia/Shanghai",
+    "provenance": "官方直接原图",
+    "rights": "个人研究参考；原作与身份标志归相应权利人，未取得公开再分发或商业授权"
+  },
+  {
+    "id": "MSI23-006",
+    "title": "卫衣印花与摄影近景",
+    "role": "application",
+    "page_url": "https://merch.riotgames.com/en-us/product/msi-2023-defy-hoodie/?variant=42207055577284",
+    "original_url": "https://cdn.sanity.io/images/dsfx7636/consumer_products/16643afe0df3cbce47fa7f3fe7b19f0eda237f50-2560x2560.png",
+    "creator": "Riot Games 官方发布；Mike Potter 项目页署名创意指导 Mike Potter、资深美术指导 Vince Than、资深设计师 Jarrett Quon 等；单图执行分工未逐一核实",
+    "creator_status": "verified",
+    "viewed": true,
+    "local_file": "../assets/reference/hoodie-product-02.png",
+    "observation": "米白真实织物承载红色小徽记与黑色手写组合，袖部红斜块；暖光阴影和背景海报属于摄影环境。",
+    "location": "完整静态画面；图解另记裁切像素",
+    "sha256": "b176fbc75551a80108ccd621e66706856b5208f277595d05366a02b74cd2e352",
+    "size": [
+      2560,
+      2560
+    ],
+    "retrieved_at": "2026-10-21 Asia/Shanghai",
+    "provenance": "官方直接原图",
+    "rights": "个人研究参考；原作与身份标志归相应权利人，未取得公开再分发或商业授权"
+  },
+  {
+    "id": "MSI23-007",
+    "title": "黑底堆叠识别分支",
+    "role": "core",
+    "page_url": "https://esports-news.co.uk/2023/04/23/msi-2023-broadcast-talent-line-up/",
+    "original_url": "https://esports-news.co.uk/wp-content/uploads/2023/04/msi-2023-defy-logo.jpg",
+    "creator": "Riot Games 官方发布；Mike Potter 项目页署名创意指导 Mike Potter、资深美术指导 Vince Than、资深设计师 Jarrett Quon 等；单图执行分工未逐一核实",
+    "creator_status": "verified",
+    "viewed": true,
+    "local_file": "../assets/reference/talent-02.jpg",
+    "observation": "近黑背景中央红色 DEFY / MSI / 2023 紧密叠排，上下短斜带围合；说明可用黑底红字分支，未要求所有应用都有手写大字。",
+    "location": "完整静态画面；图解另记裁切像素",
+    "sha256": "cdf8f5bb269bbdcdf00196e4cecc25ba89f40e34a47e92386615361568ea86b2",
+    "size": [
+      1150,
+      550
+    ],
+    "retrieved_at": "2026-10-21 Asia/Shanghai",
+    "provenance": "Esports News UK 报道头图；赛事作品转载，具体图片作者未单独标明",
+    "rights": "个人研究参考；原作与身份标志归相应权利人，未取得公开再分发或商业授权"
+  }
+]
