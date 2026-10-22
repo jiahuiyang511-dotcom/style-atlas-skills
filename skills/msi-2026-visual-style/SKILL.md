@@ -61,3 +61,5 @@ python scripts/prepare_brief.py --input brief.json --output work/
 ## 禁止事项
 
 不将近似字体、色值和推导比例写成官方规范；不复制赛事、战队标识或角色冒充用户品牌；不虚构性能、认证、活动信息和合作关系；不让裂口遮住必要文字；不以创建目录或提示词代替完成设计。参考图权利归 Riot Games 及相应权利人。完整包可离线读取，不假定目标 AI 能访问私有网站，不自动安装。
+
+来源、署名和素材使用范围见 [SOURCE_NOTICE.md](SOURCE_NOTICE.md)。

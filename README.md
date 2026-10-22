@@ -16,7 +16,7 @@
 | <a href="skills/msi-2022-visual-style/SKILL.md"><img src="skills/msi-2022-visual-style/assets/reference/primer-02.jpg" alt="MSI 2022 主视觉预览" width="160" height="90"></a> | [msi-2022-visual-style](skills/msi-2022-visual-style/SKILL.md) | 笔记方格、柔和多色场、紧缩变形标题与像素阶梯 |
 | <a href="skills/msi-2023-visual-style/SKILL.md"><img src="skills/msi-2023-visual-style/assets/reference/primer-02.png" alt="MSI 2023 主视觉预览" width="160" height="90"></a> | [msi-2023-visual-style](skills/msi-2023-visual-style/SKILL.md) | 红米白黑、几何字与签名笔迹、截断斜带与极窄大字 |
 | <a href="skills/msi-2024-visual-style/SKILL.md"><img src="skills/msi-2024-visual-style/assets/reference/msi24-brand-expression-1-black-16x9.jpg" alt="MSI 2024 主视觉预览" width="160" height="90"></a> | [msi-2024-visual-style](skills/msi-2024-visual-style/SKILL.md) | 黑红锚点、宽重紧排字体、局部光谱异常边界与数据层级 |
-| <a href="skills/msi-2025-visual-style/SKILL.md"><img src="docs/msi-2025-thumb.webp" alt="MSI 2025 原创转译概念：黑红电性锋芒与偏白宽重字块" width="160" height="90"></a> | [msi-2025-visual-style](skills/msi-2025-visual-style/SKILL.md) | 黑红电性锋芒、偏白宽重字块与紫色手绘笔势 |
+| <a href="skills/msi-2025-visual-style/SKILL.md"><img src="docs/msi-2025-thumb.webp" alt="MSI 2025 原作主视觉：IGNITE THE FIRE WITHIN" width="160" height="90"></a> | [msi-2025-visual-style](skills/msi-2025-visual-style/SKILL.md) | 黑红电性锋芒、偏白宽重字块与紫色手绘笔势 |
 | <a href="skills/msi-2026-visual-style/SKILL.md"><img src="skills/msi-2026-visual-style/assets/references/008.jpg" alt="MSI 2026 主视觉预览" width="160" height="90"></a> | [msi-2026-visual-style](skills/msi-2026-visual-style/SKILL.md) | 纸灰、红色硬边形态、规则信息与自由笔触的组合关系 |
 
 ## 下载
@@ -25,12 +25,12 @@
 
 | 风格 | 独立下载 |
 | --- | --- |
-| MSI 2021 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.0.0/msi-2021-visual-style.zip) |
-| MSI 2022 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.0.0/msi-2022-visual-style.zip) |
-| MSI 2023 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.0.0/msi-2023-visual-style.zip) |
-| MSI 2024 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.0.0/msi-2024-visual-style.zip) |
-| MSI 2025 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.0/msi-2025-visual-style.zip) |
-| MSI 2026 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.0.0/msi-2026-visual-style.zip) |
+| MSI 2021 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.1/msi-2021-visual-style.zip) |
+| MSI 2022 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.1/msi-2022-visual-style.zip) |
+| MSI 2023 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.1/msi-2023-visual-style.zip) |
+| MSI 2024 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.1/msi-2024-visual-style.zip) |
+| MSI 2025 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.1/msi-2025-visual-style.zip) |
+| MSI 2026 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.1/msi-2026-visual-style.zip) |
 
 发布附件中包含 SHA256SUMS.txt，供核对下载完整性。
 
