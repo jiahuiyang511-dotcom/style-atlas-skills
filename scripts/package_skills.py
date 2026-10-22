@@ -1,17 +1,17 @@
-"""Package the five published style skills; keep the authoring workflow local."""
+"""Package the six published style skills; keep the authoring workflow local."""
 import hashlib
 import json
 from pathlib import Path
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILLS = tuple(f"msi-{year}-visual-style" for year in (2021, 2022, 2023, 2024, 2026))
+SKILLS = tuple(f"msi-{year}-visual-style" for year in (2021, 2022, 2023, 2024, 2025, 2026))
 
 
 def package(output):
     actual = {p.name for p in (ROOT / "skills").iterdir() if p.is_dir()}
     if actual != set(SKILLS):
-        raise ValueError("Skill directories differ from the five approved styles")
+        raise ValueError("Skill directories differ from the six approved styles")
     output.mkdir(parents=True, exist_ok=False)
     results = []
     for name in SKILLS:
