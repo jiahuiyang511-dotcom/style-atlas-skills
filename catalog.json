@@ -295,6 +295,51 @@
       "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/worlds-2017-visual-style",
       "skillZip": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2017-v1.0.0/worlds-2017-visual-style.zip",
       "thumbnail": "docs/worlds-2017-thumb.jpg"
+    },
+    {
+      "id": "worlds-2019",
+      "name": "Worlds 2019",
+      "classification": {
+        "path": [
+          {
+            "id": "events",
+            "label": "赛事视觉"
+          },
+          {
+            "id": "lol-international",
+            "label": "英雄联盟国际赛事",
+            "aliases": [
+              "LOL国际赛事",
+              "LoL Esports"
+            ]
+          },
+          {
+            "id": "worlds",
+            "label": "Worlds 全球总决赛",
+            "aliases": [
+              "S赛",
+              "S 赛",
+              "Worlds",
+              "英雄联盟全球总决赛"
+            ]
+          }
+        ],
+        "edition": "2019",
+        "variant": "LostProject 宣传主视觉系统"
+      },
+      "tags": [
+        "象牙白雕塑",
+        "浮岛",
+        "纪念碑空间",
+        "局部金属",
+        "浅色空间",
+        "冷蓝紫背光"
+      ],
+      "subtitle": "象牙白雕塑 × 纪念碑浮岛 × 局部金属 × 冷蓝紫背光",
+      "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/worlds-2019-visual-style",
+      "skillPath": "skills/worlds-2019-visual-style",
+      "sourceUrl": "https://www.lostproject.com/league-of-legends-worlds-2019",
+      "thumbnail": "docs/worlds-2019-thumb.jpg"
     }
   ]
 }
