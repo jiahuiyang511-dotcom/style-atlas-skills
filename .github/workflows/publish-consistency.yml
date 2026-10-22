@@ -1,4 +1,4 @@
-name: Publish consistency fixes v1.1.1
+name: Publish consistency fixes v1.1.2
 on:
   push:
     branches: [main]
@@ -18,11 +18,11 @@ jobs:
           gh repo clone "$GITHUB_REPOSITORY" source -- --depth 1 --branch main
           test "$(git -C source rev-parse HEAD)" = "$GITHUB_SHA"
           python3 source/scripts/package_skills.py --output "$RUNNER_TEMP/skill-release"
-          if gh release view v1.1.1 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            echo "v1.1.1 already exists; refusing to overwrite."
+          if gh release view v1.1.2 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "v1.1.2 already exists; refusing to overwrite."
             exit 1
           fi
-          gh release create v1.1.1 "$RUNNER_TEMP/skill-release/"* \
+          gh release create v1.1.2 "$RUNNER_TEMP/skill-release/"* \
             --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
-            --title "v1.1.1 · Skill structure and source notices" \
+            --title "v1.1.2 · Skill structure and source notices" \
             --notes "MSI 2025 Prompt files now follow the MSI 2026 references convention with unchanged contents. All six Skill packages include SOURCE_NOTICE.md. The MSI 2025 README thumbnail now shows the collected original key visual, not an AI-generated concept. Previous releases are retained."
