@@ -1,0 +1,43 @@
+name: Publish Worlds 2019 style
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-worlds-2019.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-worlds-2019-v1
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      RELEASE_TAG: worlds-2019-v1.0.0
+      SOURCE_SHA: 95e23dede2ee48ce8b7a766a2404738bbbf5078a
+    steps:
+      - name: Fetch the approved exact source
+        run: |
+          set -euo pipefail
+          gh repo clone "$REPO" source -- --depth 1
+          git -C source fetch origin "$SOURCE_SHA" --depth 1
+          git -C source checkout --detach "$SOURCE_SHA"
+      - name: Package using the existing catalogue packager
+        run: |
+          set -euo pipefail
+          python3 source/scripts/verify_catalogue.py
+          python3 source/scripts/package_skills.py --output "$RUNNER_TEMP/all-style-packages"
+          mkdir "$RUNNER_TEMP/worlds-2019-release"
+          cp "$RUNNER_TEMP/all-style-packages/worlds-2019-visual-style.zip" "$RUNNER_TEMP/worlds-2019-release/"
+          cd "$RUNNER_TEMP/worlds-2019-release"
+          sha256sum worlds-2019-visual-style.zip > SHA256SUMS.txt
+      - name: Publish the approved release without replacing old assets
+        run: |
+          set -euo pipefail
+          if gh release view "$RELEASE_TAG" --repo "$REPO" >/dev/null 2>&1; then
+            echo "Existing release retained; no overwrite performed."
+            exit 0
+          fi
+          gh release create "$RELEASE_TAG" --repo "$REPO" --target "$SOURCE_SHA" --title "Worlds 2019 — Ivory Monuments & Floating Islands" --notes "Worlds 2019 LostProject campaign artwork translated into an original reusable design Skill. Includes one dominant rock mass per island with sparse satellite fragments, seven source-backed observations, Chinese/Latin typography pairing, self-contained prompts, and source notices. This is independent research, not official Riot brand guidelines. Full local research and generated concepts are excluded from this download." "$RUNNER_TEMP/worlds-2019-release/worlds-2019-visual-style.zip" "$RUNNER_TEMP/worlds-2019-release/SHA256SUMS.txt"
