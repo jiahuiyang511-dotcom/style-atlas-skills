@@ -2,7 +2,7 @@
 
 将已提炼的视觉风格用于 AI 设计与绘图 Prompt。
 
-Style Atlas 按视觉来源组织可复用的设计工具，持续收录赛事、品牌、电影等不同板块。英雄联盟国际赛事是其中一个板块，MSI 是其下的一个赛事系列；当前已收录六套 MSI 风格。完整研究包与网站内容生产工作流保留本地。
+Style Atlas 按视觉来源组织可复用的设计工具，持续收录赛事、品牌、电影等不同板块。英雄联盟国际赛事是其中一个板块，MSI 是其下的一个赛事系列；当前已收录六套 MSI 风格与 Worlds 2017。完整研究包与网站内容生产工作流保留本地。
 
 [Style Atlas 展示网站](https://style-atlas-msi-2026.jiahuizz3.chatgpt.site/)
 
@@ -14,6 +14,7 @@ Style Atlas 按视觉来源组织可复用的设计工具，持续收录赛事�
 - 赛事视觉
   - 英雄联盟国际赛事
     - MSI 季中冠军赛
+    - Worlds 全球总决赛
 
 分类只显示已收录内容。Worlds（S 赛）与 MSI 属于英雄联盟国际赛事下的并列系列；其他赛事、品牌和电影等来源可按实际收录继续登记。
 
@@ -30,6 +31,12 @@ Style Atlas 按视觉来源组织可复用的设计工具，持续收录赛事�
 | <a href="skills/msi-2025-visual-style/SKILL.md"><img src="docs/msi-2025-thumb.webp" alt="MSI 2025 原作主视觉" width="160" height="90"></a> | [msi-2025-visual-style](skills/msi-2025-visual-style/SKILL.md) | 电性锋芒、宽重紧排、紫色手势、体育编排 |
 | <a href="skills/msi-2026-visual-style/SKILL.md"><img src="skills/msi-2026-visual-style/assets/references/008.jpg" alt="MSI 2026 原作主视觉" width="160" height="90"></a> | [msi-2026-visual-style](skills/msi-2026-visual-style/SKILL.md) | 宽重字体、手绘标记、规则信息、纸感纹理 |
 
+### 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛
+
+| 主视觉 | Skill | 关键词 |
+| --- | --- | --- |
+| <a href="skills/worlds-2017-visual-style/SKILL.md"><img src="docs/worlds-2017-thumb.jpg" alt="Worlds 2017 原作主视觉" width="160" height="90"></a> | [worlds-2017-visual-style](skills/worlds-2017-visual-style/SKILL.md) | 光滑浅纹、蓝灰阴影、釉状光泽、金边、中国书法、非动物迁移 |
+
 ## 下载
 
 | 来源分类 | 风格 | 独立下载 |
@@ -40,6 +47,7 @@ Style Atlas 按视觉来源组织可复用的设计工具，持续收录赛事�
 | 赛事视觉 / 英雄联盟国际赛事 / MSI 季中冠军赛 | MSI 2024 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2024-visual-style.zip) |
 | 赛事视觉 / 英雄联盟国际赛事 / MSI 季中冠军赛 | MSI 2025 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2025-visual-style.zip) |
 | 赛事视觉 / 英雄联盟国际赛事 / MSI 季中冠军赛 | MSI 2026 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2026-visual-style.zip) |
+| 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2017 | 待发布 |
 
 [全部发布版本](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases) · 各版本附 SHA256SUMS.txt。历史链接保留，每种风格可独立更新版本。
 

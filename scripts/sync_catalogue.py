@@ -32,7 +32,9 @@ def render(data):
         text += '\n'
     text += '## 下载\n\n| 来源分类 | 风格 | 独立下载 |\n| --- | --- | --- |\n'
     for group, items in groups.items():
-        for item in items:text += f'| {group} | {item["name"]} | [下载完整 Skill ZIP]({item["skillZip"]}) |\n'
+        for item in items:
+            link=f'[下载完整 Skill ZIP]({item["skillZip"]})' if item.get('skillZip') else '待发布'
+            text += f'| {group} | {item["name"]} | {link} |\n'
     text += '\n[全部发布版本](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases) · 各版本附 SHA256SUMS.txt。历史链接保留，每种风格可独立更新版本。\n'
     return text
 

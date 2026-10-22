@@ -250,6 +250,51 @@
       "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/msi-2026-visual-style",
       "skillZip": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2026-visual-style.zip",
       "thumbnail": "skills/msi-2026-visual-style/assets/references/008.jpg"
+    },
+    {
+      "id": "worlds-2017",
+      "name": "Worlds 2017",
+      "classification": {
+        "path": [
+          {
+            "id": "events",
+            "label": "赛事视觉"
+          },
+          {
+            "id": "lol-international",
+            "label": "英雄联盟国际赛事",
+            "aliases": [
+              "LOL国际赛事",
+              "LoL Esports"
+            ]
+          },
+          {
+            "id": "worlds",
+            "label": "Worlds 全球总决赛",
+            "aliases": [
+              "S赛",
+              "S 赛",
+              "Worlds",
+              "英雄联盟全球总决赛"
+            ]
+          }
+        ],
+        "edition": "2017"
+      },
+      "skillPath": "skills/worlds-2017-visual-style",
+      "tags": [
+        "光滑浅纹",
+        "蓝灰阴影",
+        "釉状光泽",
+        "金边",
+        "中国书法",
+        "非动物迁移"
+      ],
+      "subtitle": "光滑浅纹浮雕 × 主体蓝灰光色 × 局部金边 × 书法与窄高字",
+      "sourceUrl": "https://www.pepperez.work/work/worlds-2017",
+      "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/worlds-2017-visual-style",
+      "skillZip": "",
+      "thumbnail": "docs/worlds-2017-thumb.jpg"
     }
   ]
 }
