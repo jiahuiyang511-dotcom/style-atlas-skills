@@ -10,13 +10,13 @@
 
 ## 选择需要的工具
 
-| Skill | 用途 |
-| --- | --- |
-| [msi-2021-visual-style](skills/msi-2021-visual-style/SKILL.md) | 灰阶撕接、窄高文字、倾斜放大口号与荧光绿注释 |
-| [msi-2022-visual-style](skills/msi-2022-visual-style/SKILL.md) | 笔记方格、柔和多色场、紧缩变形标题与像素阶梯 |
-| [msi-2023-visual-style](skills/msi-2023-visual-style/SKILL.md) | 红米白黑、几何字与签名笔迹、截断斜带与极窄大字 |
-| [msi-2024-visual-style](skills/msi-2024-visual-style/SKILL.md) | 黑红锚点、宽重紧排字体、局部光谱异常边界与数据层级 |
-| [msi-2026-visual-style](skills/msi-2026-visual-style/SKILL.md) | 纸灰、红色硬边形态、规则信息与自由笔触的组合关系 |
+| 主视觉 | Skill | 用途 |
+| --- | --- | --- |
+| <a href="skills/msi-2021-visual-style/SKILL.md"><img src="skills/msi-2021-visual-style/assets/reference/official-03.jpg" alt="MSI 2021 主视觉预览" width="160" height="90"></a> | [msi-2021-visual-style](skills/msi-2021-visual-style/SKILL.md) | 灰阶撕接、窄高文字、倾斜放大口号与荧光绿注释 |
+| <a href="skills/msi-2022-visual-style/SKILL.md"><img src="skills/msi-2022-visual-style/assets/reference/primer-02.jpg" alt="MSI 2022 主视觉预览" width="160" height="90"></a> | [msi-2022-visual-style](skills/msi-2022-visual-style/SKILL.md) | 笔记方格、柔和多色场、紧缩变形标题与像素阶梯 |
+| <a href="skills/msi-2023-visual-style/SKILL.md"><img src="skills/msi-2023-visual-style/assets/reference/primer-02.png" alt="MSI 2023 主视觉预览" width="160" height="90"></a> | [msi-2023-visual-style](skills/msi-2023-visual-style/SKILL.md) | 红米白黑、几何字与签名笔迹、截断斜带与极窄大字 |
+| <a href="skills/msi-2024-visual-style/SKILL.md"><img src="skills/msi-2024-visual-style/assets/reference/msi24-brand-expression-1-black-16x9.jpg" alt="MSI 2024 主视觉预览" width="160" height="90"></a> | [msi-2024-visual-style](skills/msi-2024-visual-style/SKILL.md) | 黑红锚点、宽重紧排字体、局部光谱异常边界与数据层级 |
+| <a href="skills/msi-2026-visual-style/SKILL.md"><img src="skills/msi-2026-visual-style/assets/references/008.jpg" alt="MSI 2026 主视觉预览" width="160" height="90"></a> | [msi-2026-visual-style](skills/msi-2026-visual-style/SKILL.md) | 纸灰、红色硬边形态、规则信息与自由笔触的组合关系 |
 
 ## 下载
 
