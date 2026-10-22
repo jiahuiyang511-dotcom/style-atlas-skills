@@ -1,0 +1,28 @@
+name: Publish MSI 2025 v1.1.0
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-msi2025.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    if: github.repository == 'jiahuiyang511-dotcom/style-atlas-skills'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Package verified source and publish v1.1.0 once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh repo clone "$GITHUB_REPOSITORY" source -- --depth 1 --branch main
+          test "$(git -C source rev-parse HEAD)" = "$GITHUB_SHA"
+          python3 source/scripts/package_skills.py --output "$RUNNER_TEMP/skill-release"
+          if gh release view v1.1.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "v1.1.0 already exists; refusing to overwrite."
+            exit 1
+          fi
+          gh release create v1.1.0 "$RUNNER_TEMP/skill-release/"* \
+            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+            --title "v1.1.0 · MSI 2025 visual style" \
+            --notes-file source/.github/msi2025-release-notes.md
