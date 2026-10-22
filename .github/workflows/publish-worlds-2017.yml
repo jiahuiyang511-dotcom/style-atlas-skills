@@ -1,0 +1,40 @@
+name: Publish Worlds 2017
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/publish-worlds-2017.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-worlds-2017-v1
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RELEASE_TAG: worlds-2017-v1.0.0
+    steps:
+      - name: Download this exact source commit
+        run: |
+          set -euo pipefail
+          gh api "repos/$GITHUB_REPOSITORY/zipball/$GITHUB_SHA" > source.zip
+          mkdir extracted
+          unzip -q source.zip -d extracted
+          mv extracted/* source
+      - name: Verify catalogue and package approved Skills
+        run: |
+          python3 source/scripts/verify_catalogue.py
+          python3 source/scripts/package_skills.py --output "$RUNNER_TEMP/skill-release"
+      - name: Publish new version without replacing existing attachments
+        run: |
+          set -euo pipefail
+          if gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release already exists; preserving its existing attachments."
+            exit 0
+          fi
+          gh release create "$RELEASE_TAG" "$RUNNER_TEMP/skill-release/"* \
+            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+            --title "Worlds 2017 Visual Style · v1.0.0" \
+            --notes "新增 Worlds 2017 专属 Skill：八项来源分析、光滑浅纹与主体蓝灰光色规则、非动物题材迁移及中文功能字适配。附执行参考、来源说明、独立 Prompt 与 SHA256SUMS.txt。原有条目和历史下载链接保留。非 Riot 官方规范，概念未验证印刷制造。"
