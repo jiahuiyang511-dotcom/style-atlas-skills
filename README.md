@@ -38,6 +38,7 @@ Style Atlas 按视觉来源组织可复用的设计工具，持续收录赛事�
 | <a href="skills/worlds-2017-visual-style/SKILL.md"><img src="docs/worlds-2017-thumb.jpg" alt="Worlds 2017 原作主视觉" width="160" height="90"></a> | [worlds-2017-visual-style](skills/worlds-2017-visual-style/SKILL.md) | 光滑浅纹、蓝灰阴影、釉状光泽、金边、中国书法、非动物迁移 |
 | <a href="skills/worlds-2019-visual-style/SKILL.md"><img src="docs/worlds-2019-thumb.jpg" alt="Worlds 2019 原作主视觉" width="160" height="90"></a> | [worlds-2019-visual-style](skills/worlds-2019-visual-style/SKILL.md) | 象牙白雕塑、浮岛、纪念碑空间、局部金属、浅色空间、冷蓝紫背光 |
 | <a href="skills/worlds-2021-visual-style/SKILL.md"><img src="docs/worlds-2021-thumb.jpg" alt="Worlds 2021 原作主视觉" width="160" height="90"></a> | [worlds-2021-visual-style](skills/worlds-2021-visual-style/SKILL.md) | 灰白浮雕、中心圆章、多层起伏、硬边倒角、有机曲面、浅刻纹理、接触阴影、蓝晶面、实体字 |
+| <a href="skills/worlds-2020-visual-style/SKILL.md"><img src="docs/worlds-2020-thumb.jpg" alt="Worlds 2020 原作主视觉" width="160" height="90"></a> | [worlds-2020-visual-style](skills/worlds-2020-visual-style/SKILL.md) | 青色笔势、橙红窄高字、深蓝、书法、尖角线图、上海、传统暗纹、云气轮廓、层叠弧线、图像填字、字形遮罩、暖金窄字 |
 
 ## 下载
 
@@ -52,6 +53,7 @@ Style Atlas 按视觉来源组织可复用的设计工具，持续收录赛事�
 | 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2017 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2017-v1.0.0/worlds-2017-visual-style.zip) |
 | 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2019 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2019-v1.0.0/worlds-2019-visual-style.zip) |
 | 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2021 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2021-v1.0.0/worlds-2021-visual-style.zip) |
+| 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2020 | 待发布 |
 
 [全部发布版本](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases) · 各版本附 SHA256SUMS.txt。历史链接保留，每种风格可独立更新版本。
 

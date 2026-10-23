@@ -390,6 +390,58 @@
       "sourceUrl": "https://lolesports.com/en-US/news/worlds-2021-primer",
       "thumbnail": "docs/worlds-2021-thumb.jpg",
       "skillZip": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2021-v1.0.0/worlds-2021-visual-style.zip"
+    },
+    {
+      "id": "worlds-2020",
+      "name": "Worlds 2020",
+      "classification": {
+        "path": [
+          {
+            "id": "events",
+            "label": "赛事视觉"
+          },
+          {
+            "id": "lol-international",
+            "label": "英雄联盟国际赛事",
+            "aliases": [
+              "LOL国际赛事",
+              "LoL Esports"
+            ]
+          },
+          {
+            "id": "worlds",
+            "label": "Worlds 全球总决赛",
+            "aliases": [
+              "S赛",
+              "S 赛",
+              "Worlds",
+              "英雄联盟全球总决赛"
+            ]
+          }
+        ],
+        "edition": "2020",
+        "variant": "TAKE OVER 品牌平面系统；叙事插画另标"
+      },
+      "tags": [
+        "青色笔势",
+        "橙红窄高字",
+        "深蓝",
+        "书法",
+        "尖角线图",
+        "上海",
+        "传统暗纹",
+        "云气轮廓",
+        "层叠弧线",
+        "图像填字",
+        "字形遮罩",
+        "暖金窄字"
+      ],
+      "subtitle": "笔势大字 × 传统暗纹 × 巨型字形图像遮罩",
+      "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/worlds-2020-visual-style",
+      "skillZip": "",
+      "skillPath": "skills/worlds-2020-visual-style",
+      "sourceUrl": "https://maroon-oarfish-g3xy.squarespace.com/work/worlds2020",
+      "thumbnail": "docs/worlds-2020-thumb.jpg"
     }
   ]
 }
