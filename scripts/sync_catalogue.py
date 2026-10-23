@@ -2,6 +2,7 @@
 import json
 from pathlib import Path
 from collections import OrderedDict
+from html import escape
 
 ROOT = Path(__file__).resolve().parents[1]
 START, END = '<!-- style-catalogue:start -->', '<!-- style-catalogue:end -->'
@@ -25,11 +26,17 @@ def render(data):
     text += tree()
     text += '\n分类只显示已收录内容。Worlds（S 赛）与 MSI 属于英雄联盟国际赛事下的并列系列；其他赛事、品牌和电影等来源可按实际收录继续登记。\n\n## 选择需要的工具\n\n'
     for group, items in groups.items():
-        text += '### ' + group + '\n\n| 主视觉 | Skill | 关键词 |\n| --- | --- | --- |\n'
+        # Shared MSI proportions prevent longer labels/tags from shrinking thumbnails.
+        text += '### ' + group + '\n\n<table width="100%">\n<thead><tr><th width="23%">主视觉</th><th width="22%">Skill</th><th width="55%">关键词</th></tr></thead>\n<tbody>\n'
         for item in items:
             entry = item['skillPath'] + '/SKILL.md'
-            text += f'| <a href="{entry}"><img src="{item["thumbnail"]}" alt="{item["name"]} 原作主视觉" width="160" height="90"></a> | [{Path(item["skillPath"]).name}]({entry}) | '+ '、'.join(item['tags'])+' |\n'
-        text += '\n'
+            entry = escape(entry, quote=True)
+            thumb = escape(item['thumbnail'], quote=True)
+            name = escape(item['name'], quote=True)
+            skill = escape(Path(item['skillPath']).name)
+            tags = escape('、'.join(item['tags']))
+            text += f'<tr><td width="23%"><a href="{entry}"><img src="{thumb}" alt="{name} 原作主视觉" width="160" height="90"></a></td><td width="22%"><a href="{entry}">{skill}</a></td><td width="55%">{tags}</td></tr>\n'
+        text += '</tbody>\n</table>\n\n'
     text += '## 下载\n\n| 来源分类 | 风格 | 独立下载 |\n| --- | --- | --- |\n'
     for group, items in groups.items():
         for item in items:
@@ -54,3 +61,4 @@ def sync():
     p.write_text(text,encoding='utf-8',newline='\n')
 
 if __name__=='__main__':sync()
+

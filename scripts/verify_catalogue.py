@@ -35,6 +35,7 @@ with tempfile.TemporaryDirectory() as folder:
     except ValueError:pass
 rendered=renderer.render({'styles':[data['styles'][0],brand,fixture]})
 assert rendered.index('    - Worlds')<rendered.index('- 品牌视觉')
-assert '[brand-fixture]' in rendered
+assert '>brand-fixture</a>' in rendered
 before=(ROOT/'README.md').read_bytes();renderer.sync();assert (ROOT/'README.md').read_bytes()==before
 print(json.dumps({'catalogue_entries':len(data['styles']),'generic_packaging':'PASS','duplicate_rejection':'PASS','path_rejection':'PASS','tree_grouping':'PASS','readme_idempotence':'PASS'}))
+
