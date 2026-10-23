@@ -1,0 +1,41 @@
+name: Publish Worlds 2021 relief style
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-worlds-2021.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-worlds-2021-v1
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RELEASE_TAG: worlds-2021-v1.0.0
+    steps:
+      - name: Fetch exact approved source
+        run: |
+          set -euo pipefail
+          gh api "repos/$GITHUB_REPOSITORY/zipball/$GITHUB_SHA" > source.zip
+          mkdir extracted
+          unzip -q source.zip -d extracted
+          mv extracted/* source
+      - name: Verify catalogue and package Skills
+        run: |
+          python3 source/scripts/verify_catalogue.py
+          python3 source/scripts/package_skills.py --output "$RUNNER_TEMP/packages"
+          mkdir "$RUNNER_TEMP/approved"
+          cp "$RUNNER_TEMP/packages/worlds-2021-visual-style.zip" "$RUNNER_TEMP/approved/"
+          cd "$RUNNER_TEMP/approved"
+          sha256sum worlds-2021-visual-style.zip > SHA256SUMS.txt
+      - name: Publish without replacing historical attachments
+        run: |
+          set -euo pipefail
+          if gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Existing release retained."
+            exit 0
+          fi
+          gh release create "$RELEASE_TAG" "$RUNNER_TEMP/approved/"* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Worlds 2021 · Gray-white Relief Art · v1.0.0" --notes "灰白浮雕主美术专属 Skill：八点来源分析、中心装置与三档起伏、硬边和有机曲面、同色光影、小蓝晶面及雕刻文字。包含执行参考、来源说明与自包含 Prompt。其他视觉分支仅作参考。独立研究，非 Riot 官方规范；完整研究及生成案例保留本地与个人网站。"

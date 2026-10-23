@@ -1,0 +1,36 @@
+[
+  {
+    "id": "W21-001",
+    "title": "官方年度浮雕主视觉",
+    "page_url": "https://lolesports.com/en-US/news/worlds-2021-primer",
+    "original_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/7721506056213ca0df0e4742d7b910634db8ba85-1600x900.jpg?accountingTag=lol_esports&auto=format&fit=max&w=3840",
+    "creator": "Riot Games / LoL Esports；单图制作人员未列",
+    "creator_status": "unverified",
+    "role": "core",
+    "viewed": true,
+    "local_file": "references/hero.jpg",
+    "retrieved_at": "2026-10-23",
+    "sha256": "27bd7ba6e35a99d2df3bdcdaa23fbc7411d1b786dfa8c71363c981fc0b586ec8",
+    "current_source_sha256": "27bd7ba6e35a99d2df3bdcdaa23fbc7411d1b786dfa8c71363c981fc0b586ec8",
+    "current_source_matches": true,
+    "observation": "完整画面；详见 analysis.md 与图解页",
+    "note": "原作优化研究副本；原始SHA对应完整原件"
+  },
+  {
+    "id": "W21-005",
+    "title": "带浮雕与窄字框架的主视觉",
+    "page_url": "https://studiojung.co/#worlds21",
+    "original_url": "https://studiojung.co/images/worlds21/01.webp",
+    "creator": "David Jung / Riot Games；项目列 Massive Assembly、Good Art，单图职责未单独确认",
+    "creator_status": "verified",
+    "role": "core",
+    "viewed": true,
+    "local_file": "references/wide.jpg",
+    "observation": "白色浮雕与上下高窄标题共同构成完整横版。",
+    "retrieved_at": "2026-10-23",
+    "sha256": "8aaa791422d5d461bab7d780ff3e84457f610407e37eb6fc369beee0e987c6d2",
+    "inspection": "接触表已查看；jung-05、ivhan-46、ivhan-50 另做原图近看",
+    "rights": "原作研究参考；再分发与商业使用权限未知",
+    "note": "原作优化研究副本；原始SHA对应完整原件"
+  }
+]

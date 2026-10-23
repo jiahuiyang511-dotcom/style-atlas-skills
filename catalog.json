@@ -341,6 +341,54 @@
       "sourceUrl": "https://www.lostproject.com/league-of-legends-worlds-2019",
       "thumbnail": "docs/worlds-2019-thumb.jpg",
       "skillZip": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2019-v1.0.0/worlds-2019-visual-style.zip"
+    },
+    {
+      "id": "worlds-2021",
+      "name": "Worlds 2021",
+      "subtitle": "灰白浮雕主美术 × 多层体积 × 有机曲面与硬边 × 局部蓝晶面",
+      "tags": [
+        "灰白浮雕",
+        "中心圆章",
+        "多层起伏",
+        "硬边倒角",
+        "有机曲面",
+        "浅刻纹理",
+        "接触阴影",
+        "蓝晶面",
+        "实体字"
+      ],
+      "classification": {
+        "path": [
+          {
+            "id": "events",
+            "label": "赛事视觉"
+          },
+          {
+            "id": "lol-international",
+            "label": "英雄联盟国际赛事",
+            "aliases": [
+              "LOL国际赛事",
+              "LoL Esports"
+            ]
+          },
+          {
+            "id": "worlds",
+            "label": "Worlds 全球总决赛",
+            "aliases": [
+              "S赛",
+              "S 赛",
+              "Worlds",
+              "英雄联盟全球总决赛"
+            ]
+          }
+        ],
+        "edition": "2021",
+        "variant": "MAKE/BREAK 灰白浮雕主美术"
+      },
+      "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/worlds-2021-visual-style",
+      "skillPath": "skills/worlds-2021-visual-style",
+      "sourceUrl": "https://lolesports.com/en-US/news/worlds-2021-primer",
+      "thumbnail": "docs/worlds-2021-thumb.jpg"
     }
   ]
 }
