@@ -1,0 +1,43 @@
+name: Publish Worlds 2022 style
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-worlds-2022.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-worlds-2022-v1
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      RELEASE_TAG: worlds-2022-v1.0.0
+      SOURCE_SHA: ${{ github.sha }}
+    steps:
+      - name: Fetch exact approved source
+        run: |
+          set -euo pipefail
+          gh repo clone "$REPO" source -- --depth 1
+          git -C source fetch origin "$SOURCE_SHA" --depth 1
+          git -C source checkout --detach "$SOURCE_SHA"
+      - name: Package with the existing catalogue packager
+        run: |
+          set -euo pipefail
+          python3 source/scripts/verify_catalogue.py
+          python3 source/scripts/package_skills.py --output "$RUNNER_TEMP/all-style-packages"
+          mkdir "$RUNNER_TEMP/worlds-2022-release"
+          cp "$RUNNER_TEMP/all-style-packages/worlds-2022-visual-style.zip" "$RUNNER_TEMP/worlds-2022-release/"
+          cd "$RUNNER_TEMP/worlds-2022-release"
+          sha256sum worlds-2022-visual-style.zip > SHA256SUMS.txt
+      - name: Publish without replacing historical assets
+        run: |
+          set -euo pipefail
+          if gh release view "$RELEASE_TAG" --repo "$REPO" >/dev/null 2>&1; then
+            echo "Existing release retained; no overwrite performed."
+            exit 0
+          fi
+          gh release create "$RELEASE_TAG" --repo "$REPO" --target "$SOURCE_SHA" --title "Worlds 2022 — Sculpted Type, Stylized Textile Flags & Layering" --notes "Independent research-derived design Skill covering sculpted condensed letterforms, identity-bearing technical-textile flags, controlled broad sheet bends and lighting, flexible page placement and foreground occlusion, modular layouts and stage color evolution. Includes self-contained prompts, Chinese/Latin adaptation and source/rights notices. Material and type descriptions are visual interpretations, not verified manufacturing specifications or licensed font files. Full local research and generated examples are excluded." "$RUNNER_TEMP/worlds-2022-release/worlds-2022-visual-style.zip" "$RUNNER_TEMP/worlds-2022-release/SHA256SUMS.txt"

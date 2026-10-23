@@ -442,6 +442,59 @@
       "skillPath": "skills/worlds-2020-visual-style",
       "sourceUrl": "https://maroon-oarfish-g3xy.squarespace.com/work/worlds2020",
       "thumbnail": "docs/worlds-2020-thumb.jpg"
+    },
+    {
+      "id": "worlds-2022",
+      "name": "Worlds 2022",
+      "subtitle": "尖弧字形 × 风格化旗面质感 × 可变前后叠层",
+      "tags": [
+        "尖弧内收",
+        "钩形收口",
+        "高窄字形",
+        "旗帜织物",
+        "织纹",
+        "卷曲叠层",
+        "模块重组",
+        "紫蓝柔铜",
+        "细密微表面",
+        "薄挺宽面",
+        "张力曲面",
+        "定向波形",
+        "前景遮挡",
+        "旗面在上"
+      ],
+      "classification": {
+        "path": [
+          {
+            "id": "events",
+            "label": "赛事视觉"
+          },
+          {
+            "id": "lol-international",
+            "label": "英雄联盟国际赛事",
+            "aliases": [
+              "LOL国际赛事",
+              "LoL Esports"
+            ]
+          },
+          {
+            "id": "worlds",
+            "label": "Worlds 全球总决赛",
+            "aliases": [
+              "S赛",
+              "S 赛",
+              "Worlds"
+            ]
+          }
+        ],
+        "edition": "2022",
+        "variant": "Tendril 品牌识别与赛事包装"
+      },
+      "skillPath": "skills/worlds-2022-visual-style",
+      "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/worlds-2022-visual-style",
+      "skillZip": "",
+      "sourceUrl": "https://tendril.studio/work/worlds2022/",
+      "thumbnail": "docs/worlds-2022-thumb.jpg"
     }
   ]
 }

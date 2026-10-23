@@ -43,6 +43,7 @@ Style Atlas 按视觉来源组织可复用的设计工具，持续收录赛事�
 <tr><td width="230"><a href="skills/worlds-2019-visual-style/SKILL.md"><img src="docs/worlds-2019-thumb.jpg" alt="Worlds 2019 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/worlds-2019-visual-style/SKILL.md">worlds-2019-visual-style</a></td><td width="550">象牙白雕塑、浮岛、纪念碑空间、局部金属、浅色空间、冷蓝紫背光</td></tr>
 <tr><td width="230"><a href="skills/worlds-2021-visual-style/SKILL.md"><img src="docs/worlds-2021-thumb.jpg" alt="Worlds 2021 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/worlds-2021-visual-style/SKILL.md">worlds-2021-visual-style</a></td><td width="550">灰白浮雕、中心圆章、多层起伏、硬边倒角、有机曲面、浅刻纹理、接触阴影、蓝晶面、实体字</td></tr>
 <tr><td width="230"><a href="skills/worlds-2020-visual-style/SKILL.md"><img src="docs/worlds-2020-thumb.jpg" alt="Worlds 2020 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/worlds-2020-visual-style/SKILL.md">worlds-2020-visual-style</a></td><td width="550">青色笔势、橙红窄高字、深蓝、书法、尖角线图、上海、传统暗纹、云气轮廓、层叠弧线、图像填字、字形遮罩、暖金窄字</td></tr>
+<tr><td width="230"><a href="skills/worlds-2022-visual-style/SKILL.md"><img src="docs/worlds-2022-thumb.jpg" alt="Worlds 2022 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/worlds-2022-visual-style/SKILL.md">worlds-2022-visual-style</a></td><td width="550">尖弧内收、钩形收口、高窄字形、旗帜织物、织纹、卷曲叠层、模块重组、紫蓝柔铜、细密微表面、薄挺宽面、张力曲面、定向波形、前景遮挡、旗面在上</td></tr>
 </tbody>
 </table>
 
@@ -60,6 +61,7 @@ Style Atlas 按视觉来源组织可复用的设计工具，持续收录赛事�
 | 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2019 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2019-v1.0.0/worlds-2019-visual-style.zip) |
 | 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2021 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2021-v1.0.0/worlds-2021-visual-style.zip) |
 | 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2020 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2020-v1.0.0/worlds-2020-visual-style.zip) |
+| 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2022 | 待发布 |
 
 [全部发布版本](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases) · 各版本附 SHA256SUMS.txt。历史链接保留，每种风格可独立更新版本。
 
