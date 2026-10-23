@@ -23,26 +23,26 @@ Style Atlas 按视觉来源组织可复用的设计工具，持续收录赛事�
 ### 赛事视觉 / 英雄联盟国际赛事 / MSI 季中冠军赛
 
 <table width="100%">
-<thead><tr><th width="23%">主视觉</th><th width="22%">Skill</th><th width="55%">关键词</th></tr></thead>
+<thead><tr><th width="230">主视觉</th><th width="220">Skill</th><th width="550">关键词</th></tr></thead>
 <tbody>
-<tr><td width="23%"><a href="skills/msi-2021-visual-style/SKILL.md"><img src="skills/msi-2021-visual-style/assets/reference/official-03.jpg" alt="MSI 2021 原作主视觉" width="160" height="90"></a></td><td width="22%"><a href="skills/msi-2021-visual-style/SKILL.md">msi-2021-visual-style</a></td><td width="55%">窄高字体、荧光绿、撕边拼贴、手写注释</td></tr>
-<tr><td width="23%"><a href="skills/msi-2022-visual-style/SKILL.md"><img src="skills/msi-2022-visual-style/assets/reference/primer-02.jpg" alt="MSI 2022 原作主视觉" width="160" height="90"></a></td><td width="22%"><a href="skills/msi-2022-visual-style/SKILL.md">msi-2022-visual-style</a></td><td width="55%">虚线方格、柔和渐变、像素阶梯、线框几何、紧缩变形字体</td></tr>
-<tr><td width="23%"><a href="skills/msi-2023-visual-style/SKILL.md"><img src="skills/msi-2023-visual-style/assets/reference/primer-02.png" alt="MSI 2023 原作主视觉" width="160" height="90"></a></td><td width="22%"><a href="skills/msi-2023-visual-style/SKILL.md">msi-2023-visual-style</a></td><td width="55%">签名字叠层、截断斜带、红米白黑、扫描拖影、极窄大字</td></tr>
-<tr><td width="23%"><a href="skills/msi-2024-visual-style/SKILL.md"><img src="skills/msi-2024-visual-style/assets/reference/msi24-brand-expression-1-black-16x9.jpg" alt="MSI 2024 原作主视觉" width="160" height="90"></a></td><td width="22%"><a href="skills/msi-2024-visual-style/SKILL.md">msi-2024-visual-style</a></td><td width="55%">光谱异常体、宽重字体、黑红识别、数据纹理</td></tr>
-<tr><td width="23%"><a href="skills/msi-2025-visual-style/SKILL.md"><img src="docs/msi-2025-thumb.webp" alt="MSI 2025 原作主视觉" width="160" height="90"></a></td><td width="22%"><a href="skills/msi-2025-visual-style/SKILL.md">msi-2025-visual-style</a></td><td width="55%">电性锋芒、宽重紧排、紫色手势、体育编排</td></tr>
-<tr><td width="23%"><a href="skills/msi-2026-visual-style/SKILL.md"><img src="skills/msi-2026-visual-style/assets/references/008.jpg" alt="MSI 2026 原作主视觉" width="160" height="90"></a></td><td width="22%"><a href="skills/msi-2026-visual-style/SKILL.md">msi-2026-visual-style</a></td><td width="55%">宽重字体、手绘标记、规则信息、纸感纹理</td></tr>
+<tr><td width="230"><a href="skills/msi-2021-visual-style/SKILL.md"><img src="skills/msi-2021-visual-style/assets/reference/official-03.jpg" alt="MSI 2021 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/msi-2021-visual-style/SKILL.md">msi-2021-visual-style</a></td><td width="550">窄高字体、荧光绿、撕边拼贴、手写注释</td></tr>
+<tr><td width="230"><a href="skills/msi-2022-visual-style/SKILL.md"><img src="skills/msi-2022-visual-style/assets/reference/primer-02.jpg" alt="MSI 2022 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/msi-2022-visual-style/SKILL.md">msi-2022-visual-style</a></td><td width="550">虚线方格、柔和渐变、像素阶梯、线框几何、紧缩变形字体</td></tr>
+<tr><td width="230"><a href="skills/msi-2023-visual-style/SKILL.md"><img src="skills/msi-2023-visual-style/assets/reference/primer-02.png" alt="MSI 2023 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/msi-2023-visual-style/SKILL.md">msi-2023-visual-style</a></td><td width="550">签名字叠层、截断斜带、红米白黑、扫描拖影、极窄大字</td></tr>
+<tr><td width="230"><a href="skills/msi-2024-visual-style/SKILL.md"><img src="skills/msi-2024-visual-style/assets/reference/msi24-brand-expression-1-black-16x9.jpg" alt="MSI 2024 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/msi-2024-visual-style/SKILL.md">msi-2024-visual-style</a></td><td width="550">光谱异常体、宽重字体、黑红识别、数据纹理</td></tr>
+<tr><td width="230"><a href="skills/msi-2025-visual-style/SKILL.md"><img src="docs/msi-2025-thumb.webp" alt="MSI 2025 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/msi-2025-visual-style/SKILL.md">msi-2025-visual-style</a></td><td width="550">电性锋芒、宽重紧排、紫色手势、体育编排</td></tr>
+<tr><td width="230"><a href="skills/msi-2026-visual-style/SKILL.md"><img src="skills/msi-2026-visual-style/assets/references/008.jpg" alt="MSI 2026 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/msi-2026-visual-style/SKILL.md">msi-2026-visual-style</a></td><td width="550">宽重字体、手绘标记、规则信息、纸感纹理</td></tr>
 </tbody>
 </table>
 
 ### 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛
 
 <table width="100%">
-<thead><tr><th width="23%">主视觉</th><th width="22%">Skill</th><th width="55%">关键词</th></tr></thead>
+<thead><tr><th width="230">主视觉</th><th width="220">Skill</th><th width="550">关键词</th></tr></thead>
 <tbody>
-<tr><td width="23%"><a href="skills/worlds-2017-visual-style/SKILL.md"><img src="docs/worlds-2017-thumb.jpg" alt="Worlds 2017 原作主视觉" width="160" height="90"></a></td><td width="22%"><a href="skills/worlds-2017-visual-style/SKILL.md">worlds-2017-visual-style</a></td><td width="55%">光滑浅纹、蓝灰阴影、釉状光泽、金边、中国书法、非动物迁移</td></tr>
-<tr><td width="23%"><a href="skills/worlds-2019-visual-style/SKILL.md"><img src="docs/worlds-2019-thumb.jpg" alt="Worlds 2019 原作主视觉" width="160" height="90"></a></td><td width="22%"><a href="skills/worlds-2019-visual-style/SKILL.md">worlds-2019-visual-style</a></td><td width="55%">象牙白雕塑、浮岛、纪念碑空间、局部金属、浅色空间、冷蓝紫背光</td></tr>
-<tr><td width="23%"><a href="skills/worlds-2021-visual-style/SKILL.md"><img src="docs/worlds-2021-thumb.jpg" alt="Worlds 2021 原作主视觉" width="160" height="90"></a></td><td width="22%"><a href="skills/worlds-2021-visual-style/SKILL.md">worlds-2021-visual-style</a></td><td width="55%">灰白浮雕、中心圆章、多层起伏、硬边倒角、有机曲面、浅刻纹理、接触阴影、蓝晶面、实体字</td></tr>
-<tr><td width="23%"><a href="skills/worlds-2020-visual-style/SKILL.md"><img src="docs/worlds-2020-thumb.jpg" alt="Worlds 2020 原作主视觉" width="160" height="90"></a></td><td width="22%"><a href="skills/worlds-2020-visual-style/SKILL.md">worlds-2020-visual-style</a></td><td width="55%">青色笔势、橙红窄高字、深蓝、书法、尖角线图、上海、传统暗纹、云气轮廓、层叠弧线、图像填字、字形遮罩、暖金窄字</td></tr>
+<tr><td width="230"><a href="skills/worlds-2017-visual-style/SKILL.md"><img src="docs/worlds-2017-thumb.jpg" alt="Worlds 2017 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/worlds-2017-visual-style/SKILL.md">worlds-2017-visual-style</a></td><td width="550">光滑浅纹、蓝灰阴影、釉状光泽、金边、中国书法、非动物迁移</td></tr>
+<tr><td width="230"><a href="skills/worlds-2019-visual-style/SKILL.md"><img src="docs/worlds-2019-thumb.jpg" alt="Worlds 2019 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/worlds-2019-visual-style/SKILL.md">worlds-2019-visual-style</a></td><td width="550">象牙白雕塑、浮岛、纪念碑空间、局部金属、浅色空间、冷蓝紫背光</td></tr>
+<tr><td width="230"><a href="skills/worlds-2021-visual-style/SKILL.md"><img src="docs/worlds-2021-thumb.jpg" alt="Worlds 2021 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/worlds-2021-visual-style/SKILL.md">worlds-2021-visual-style</a></td><td width="550">灰白浮雕、中心圆章、多层起伏、硬边倒角、有机曲面、浅刻纹理、接触阴影、蓝晶面、实体字</td></tr>
+<tr><td width="230"><a href="skills/worlds-2020-visual-style/SKILL.md"><img src="docs/worlds-2020-thumb.jpg" alt="Worlds 2020 原作主视觉" width="160" height="90"></a></td><td width="220"><a href="skills/worlds-2020-visual-style/SKILL.md">worlds-2020-visual-style</a></td><td width="550">青色笔势、橙红窄高字、深蓝、书法、尖角线图、上海、传统暗纹、云气轮廓、层叠弧线、图像填字、字形遮罩、暖金窄字</td></tr>
 </tbody>
 </table>
 
