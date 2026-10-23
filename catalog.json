@@ -388,7 +388,8 @@
       "skillUrl": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/tree/main/skills/worlds-2021-visual-style",
       "skillPath": "skills/worlds-2021-visual-style",
       "sourceUrl": "https://lolesports.com/en-US/news/worlds-2021-primer",
-      "thumbnail": "docs/worlds-2021-thumb.jpg"
+      "thumbnail": "docs/worlds-2021-thumb.jpg",
+      "skillZip": "https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2021-v1.0.0/worlds-2021-visual-style.zip"
     }
   ]
 }
