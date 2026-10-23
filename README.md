@@ -51,7 +51,7 @@ Style Atlas 按视觉来源组织可复用的设计工具，持续收录赛事�
 | 赛事视觉 / 英雄联盟国际赛事 / MSI 季中冠军赛 | MSI 2026 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/v1.1.2/msi-2026-visual-style.zip) |
 | 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2017 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2017-v1.0.0/worlds-2017-visual-style.zip) |
 | 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2019 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2019-v1.0.0/worlds-2019-visual-style.zip) |
-| 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2021 | 待发布 |
+| 赛事视觉 / 英雄联盟国际赛事 / Worlds 全球总决赛 | Worlds 2021 | [下载完整 Skill ZIP](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases/download/worlds-2021-v1.0.0/worlds-2021-visual-style.zip) |
 
 [全部发布版本](https://github.com/jiahuiyang511-dotcom/style-atlas-skills/releases) · 各版本附 SHA256SUMS.txt。历史链接保留，每种风格可独立更新版本。
 
